@@ -15,6 +15,7 @@ public class Client {
         st.addClient(this);
     }
 
+
     public ShapeType getType() {
         return destinationType;
     }
