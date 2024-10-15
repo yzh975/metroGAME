@@ -45,6 +45,7 @@ public class Client {
 
     }
 
+
     public boolean willGetOff(Train train) {
         /* the client gets off the train if the current station is his type or if the line doesn't bring him closer to a station of his type */
         if (train.currentStation().getType() == destinationType
